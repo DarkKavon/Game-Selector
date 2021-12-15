@@ -25,4 +25,5 @@ Game Selector is rule-based decision system using CLIPS and Java. System can be 
 ## How to use
 1. Download zipped repo or clone.
 2. In *Eclipse IDE* open only 'Project' directory as new project.
-3. Build and run GameSelector/src/GameSelector.java
+3. Ignore *CLIPSJNI src* errors
+4. Build and run GameSelector/src/GameSelector.java
