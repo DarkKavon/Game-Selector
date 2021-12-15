@@ -455,7 +455,7 @@
 
    =>
 
-   (assert (UI-state (display space.alert)
+   (assert (UI-state (display space.cadets)
                      (state final)))) 
 (defrule how-suceed-end2 ""
 
@@ -463,7 +463,7 @@
 
    =>
 
-   (assert (UI-state (display space.cadets)
+   (assert (UI-state (display space.alert)
                      (state final)))) 
 (defrule seriously-end1 ""
 
