@@ -333,7 +333,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + star.trek)
+   (assert (UI-state (display star.trek)
                      (state final))))
 (defrule star-trek-end2 ""
 
@@ -341,7 +341,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + star.trek2)
+   (assert (UI-state (display star.trek2)
                      (state final))))
 (defrule star-wars-end ""
 
@@ -349,7 +349,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + star.wars)
+   (assert (UI-state (display star.wars)
                      (state final))))                     
 (defrule star-wars-end2 ""
 
@@ -357,7 +357,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + star.wars2)
+   (assert (UI-state (display star.wars2)
                      (state final))))                     
 (defrule battlestarend ""
 
@@ -365,7 +365,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + battlestar)
+   (assert (UI-state (display battlestar)
                      (state final))))
 
 (defrule how-epic-end ""
@@ -374,7 +374,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + twilight)
+   (assert (UI-state (display twilight)
                      (state final))))
                      
 (defrule how-epic-end2 ""
@@ -383,7 +383,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + eclipse)
+   (assert (UI-state (display eclipse)
                      (state final))))
 (defrule doing-battle-end ""
 
@@ -391,7 +391,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + cosmic.encounter)
+   (assert (UI-state (display cosmic.encounter)
                      (state final)))) 
 (defrule doing-battle-end2 ""
 
@@ -399,7 +399,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + rex)
+   (assert (UI-state (display rex)
                      (state final))))                                          
 (defrule doing-battle-end3 ""
 
@@ -407,7 +407,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + conquest)
+   (assert (UI-state (display conquest)
                      (state final)))) 
 (defrule deck-builder-end ""
 
@@ -415,7 +415,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + core.worlds)
+   (assert (UI-state (display core.worlds)
                      (state final))))
 (defrule living-card-end ""
 
@@ -423,7 +423,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + android)
+   (assert (UI-state (display android)
                      (state final))))
 (defrule living-card-end2 ""
 
@@ -431,7 +431,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + galaxy.race)
+   (assert (UI-state (display galaxy.race)
                      (state final))))
 (defrule not-alien-end ""
 
@@ -439,7 +439,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + deadball)
+   (assert (UI-state (display deadball)
                      (state final)))) 
 (defrule not-alien-end2 ""
 
@@ -447,7 +447,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + phantom)
+   (assert (UI-state (display phantom)
                      (state final))))
 (defrule how-suceed-end ""
 
@@ -455,7 +455,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + space.alert)
+   (assert (UI-state (display space.alert)
                      (state final)))) 
 (defrule how-suceed-end2 ""
 
@@ -463,7 +463,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + space.cadets)
+   (assert (UI-state (display space.cadets)
                      (state final)))) 
 (defrule seriously-end1 ""
 
@@ -471,7 +471,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + merchant.venus)
+   (assert (UI-state (display merchant.venus)
                      (state final))))
 (defrule seriously-end2 ""
 
@@ -479,7 +479,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + galaxy.trucker)
+   (assert (UI-state (display galaxy.trucker)
                      (state final))))
 (defrule survival-end ""
 
@@ -487,7 +487,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + city.of.horror)
+   (assert (UI-state (display city.of.horror)
                      (state final))))
 (defrule play-as-zombie-end ""
 
@@ -495,7 +495,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + zombicide)
+   (assert (UI-state (display zombicide)
                      (state final)))) 
 (defrule play-as-zombie-end2 ""
 
@@ -503,7 +503,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + last.night.on)
+   (assert (UI-state (display last.night.on)
                      (state final))))
 (defrule card-end ""
 
@@ -511,7 +511,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + resident.evil)
+   (assert (UI-state (display resident.evil)
                      (state final))))
 (defrule play-with-him-end""
 
@@ -519,7 +519,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + mansion.of.madness)
+   (assert (UI-state (display mansion.of.madness)
                      (state final)))) 
 (defrule epic-end""
 
@@ -527,7 +527,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + arkham)
+   (assert (UI-state (display arkham)
                      (state final)))) 
 (defrule epic-end2""
 
@@ -535,7 +535,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + elder.sign)
+   (assert (UI-state (display elder.sign)
                      (state final))))  
 (defrule card-based1""
 
@@ -543,7 +543,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + nightfall)
+   (assert (UI-state (display nightfall)
                      (state final))))                                                               
 (defrule card-based2""
 
@@ -551,7 +551,7 @@
 
    =>
 
-   (assert (UI-state (display "I think your game is: " + betrayal.at.house)
+   (assert (UI-state (display betrayal.at.house)
                      (state final))))     
 (defrule determine-fantasy-final-1 ""
 
@@ -559,7 +559,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + munchkin)
+   (assert (UI-state (display munchkin)
                      (state final))))  
 					 		 
 (defrule determine-fantasy-4 ""
@@ -579,7 +579,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + dungeon.lords)
+   (assert (UI-state (display dungeon.lords)
                      (state final)))) 
 					 
 (defrule determine-fantasy-5 ""
@@ -654,7 +654,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + claustrophobia)
+   (assert (UI-state (display claustrophobia)
                      (state final)))) 		
 
 (defrule determine-fantasy-final-4 ""
@@ -663,7 +663,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + dungeon.twiser)
+   (assert (UI-state (display dungeon.twiser)
                      (state final)))) 					  					 
 					 
 (defrule determine-fantasy-final-5 ""
@@ -672,7 +672,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + mice.and.mystics)
+   (assert (UI-state (display mice.and.mystics)
                      (state final)))) 
 					 
 (defrule determine-fantasy-final-6 ""
@@ -681,7 +681,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + dungeon.and.dragons)
+   (assert (UI-state (display dungeon.and.dragons)
                      (state final)))) 
 					 
 (defrule determine-fantasy-final-7 ""
@@ -690,7 +690,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + descent)
+   (assert (UI-state (display descent)
                      (state final)))) 
 				
 (defrule determine-fantasy-final-8 ""
@@ -699,7 +699,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + dungeon.run)
+   (assert (UI-state (display dungeon.run)
                      (state final)))) 
 					 
 					 
@@ -732,7 +732,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + shadows.over)
+   (assert (UI-state (display shadows.over)
                      (state final)))) 
 					 
 (defrule determine-fantasy-final-10 ""
@@ -750,7 +750,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + lord.rings.card)
+   (assert (UI-state (display lord.rings.card)
                      (state final)))) 
 					 
 (defrule determine-fantasy-final-12 ""
@@ -759,7 +759,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + mage.knight)
+   (assert (UI-state (display mage.knight)
                      (state final)))) 
 					 
 (defrule determine-fantasy-13 ""
@@ -780,7 +780,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + tales.arabian)
+   (assert (UI-state (display tales.arabian)
                      (state final)))) 
 					 
 (defrule determine-fantasy-final-14 ""
@@ -789,7 +789,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + talisman)
+   (assert (UI-state (display talisman)
                      (state final)))) 
 					 
 (defrule determine-fantasy-14 ""
@@ -809,7 +809,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + thunderstone)
+   (assert (UI-state (display thunderstone)
                      (state final)))) 
 					 
 (defrule determine-fantasy-final-16 ""
@@ -818,7 +818,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + rune.age)
+   (assert (UI-state (display rune.age)
                      (state final)))) 
 					 
 (defrule determine-fantasy-15 ""
@@ -838,7 +838,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + war.of.ring)
+   (assert (UI-state (display war.of.ring)
                      (state final)))) 
 					 
 (defrule determine-fantasy-16 ""
@@ -869,7 +869,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + dragon.rampage)
+   (assert (UI-state (display dragon.rampage)
                      (state final))))
 					 
 (defrule determine-fantasy-final-19 ""
@@ -878,7 +878,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + castle.panic)
+   (assert (UI-state (display castle.panic)
                      (state final))))
 					 
 (defrule determine-fantasy-18 ""
@@ -909,7 +909,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + runewars)
+   (assert (UI-state (display runewars)
                      (state final))))
 					  
 (defrule determine-fantasy-final-21 ""
@@ -918,7 +918,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + small.world)
+   (assert (UI-state (display small.world)
                      (state final))))
 					 
 (defrule determine-fantasy-20 ""
@@ -939,7 +939,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + dungeon.petz)
+   (assert (UI-state (display dungeon.petz)
                      (state final))))		
 
 (defrule determine-fantasy-final-23 ""
@@ -948,7 +948,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + red.dragon.inn)
+   (assert (UI-state (display red.dragon.inn)
                      (state final))))	
 
 (defrule determine-fantasy-final-24 ""
@@ -957,7 +957,7 @@
    
    =>
 
-   (assert (UI-state (display "I think your game is: " + mage.wars)
+   (assert (UI-state (display mage.wars)
                      (state final))))	                                                                                                                                                                                                                                                                                                                         
 ;;;*************************
 ;;;* GUI INTERACTION RULES *
