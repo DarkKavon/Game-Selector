@@ -9,8 +9,8 @@ Rule-based decision system
 
 <a id='aut'></a>
 ## Authors
-* Bartosz Pietrowiak 144368
-* Kacper Wandel 144666
+* Bartosz Pietrowiak (BartoszPietrowiak)
+* Kacper Wandel (DarkKavon)
 
 <a id='tech'></a>
 ## Technology
